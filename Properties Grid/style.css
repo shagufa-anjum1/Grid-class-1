@@ -7,7 +7,7 @@
 
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px;
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
 /*     
     justify-content: end;
     justify-content: start;
@@ -20,7 +20,7 @@
     justify-content: unset;
     
 */
-   align-items: start;
+   /* align-items: start;
    align-items: end;
    align-items: center;
    align-items: baseline;
@@ -29,11 +29,20 @@
    align-items: flex-start;
    align-items: last baseline;
    align-items: normal;
-   align-items: center;
+   align-items: center; */
+
+
+   place-content: center; 
+
+
+   
 }
-.BOX:hover{
+.BOX{
     border: 1px solid red;
     background-color: aqua;
     
 }
-
+/* #box1{
+    justify-self: center;
+    justify-self: end;
+} */
